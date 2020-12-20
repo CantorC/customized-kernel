@@ -11,20 +11,20 @@ where filter_setting is either "custom" or "tradidional", and n is either 2 or 6
 
 ## Arguments
 ### -w, --weights
-	* The weights file of the pretrained model one wants to load.
-	* No default argument value.
+* The weights file of the pretrained model one wants to load.
+* No default argument value.
 ### -m, --mode
-	* Either "train" or "test".
-	* Default value is "train".
+* Either "train" or "test".
+* Default value is "train".
 ### -g, --gamma
-	* Parameter for focal loss.
-	* Default value is 0.25.
+* Parameter for focal loss.
+* Default value is 0.25.
 ### -a, --alpha
-	* Parameter for focal loss.
-	* Default value is 0.0.
+* Parameter for focal loss.
+* Default value is 0.0.
 ### -k, --klcoeff
-	* Defined as "total_loss = reconstruction_loss - klcoeff*kl_divergence". Was 0.5 in the original paper, which is too large for this experiment setting.
-	* Default is 0.05.
+* Defined as "total_loss = reconstruction_loss - klcoeff*kl_divergence". Was 0.5 in the original paper, which is too large for this experiment setting.
+* Default is 0.05.
 ## Reference
 Original code structure: https://github.com/awslabs/keras-apache-mxnet/blob/master/examples/variational_autoencoder_deconv.py
 Beethoven dataset: https://github.com/Tsung-Ping/functional-harmony
