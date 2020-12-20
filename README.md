@@ -4,8 +4,9 @@ Music generation using CNN-based VAE with customized convolution kernels.
 ## Usage
 ```bash
 python $filter_setting$_filter_$n$ch.py
-where filter_setting is either "custom" or "tradidional", and n is either 2 or 6
 ```
+where filter_setting is either "custom" or "tradidional", and n is either 2 or 6
+
 
 ## Arguments
 -w, --weights
