@@ -26,6 +26,6 @@ where filter_setting is either "custom" or "tradidional", and n is either 2 or 6
 * Defined as "total_loss = reconstruction_loss - klcoeff*kl_divergence". Was 0.5 in the original paper, which is too large for this experiment setting.
 * Default value is 0.05.
 ## Reference
-Original code structure: https://github.com/awslabs/keras-apache-mxnet/blob/master/examples/variational_autoencoder_deconv.py
-Beethoven dataset: https://github.com/Tsung-Ping/functional-harmony
-Bach dataset: Tsung-Ping Chen (not public)
+* Original code structure: https://github.com/awslabs/keras-apache-mxnet/blob/master/examples/variational_autoencoder_deconv.py
+* Beethoven dataset: https://github.com/Tsung-Ping/functional-harmony
+* Bach dataset: Tsung-Ping Chen (not public)
