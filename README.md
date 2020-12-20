@@ -10,19 +10,29 @@ where filter_setting is either "custom" or "tradidional", and n is either 2 or 6
 
 
 ## Arguments
-### -w, --weights
+```bash
+-w, --weights
+```
 * The weights file of the pretrained model one wants to load.
 * No default value.
-### -m, --mode
+```bash
+-m, --mode
+```
 * Either "train" or "test".
 * Default value is "train".
-### -g, --gamma
+```bash
+-g, --gamma
+```
 * Parameter for focal loss.
 * Default value is 0.25.
-### -a, --alpha
+```bash
+-a, --alpha
+```
 * Parameter for focal loss.
 * Default value is 0.0.
-### -k, --klcoeff
+```bash
+-k, --klcoeff
+```
 * Defined as "total_loss = reconstruction_loss - klcoeff*kl_divergence". Was 0.5 in the original paper, which is too large for this experiment setting.
 * Default value is 0.05.
 ## Reference
